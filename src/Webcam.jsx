@@ -77,7 +77,8 @@ const cssFilters = [
   { value: 'blur(5px)', label: 'Blur' },
   { value: 'sepia(1) hue-rotate(200deg)', label: 'Tint' },
   { value: 'grayscale(1) brightness(0.45) contrast(1.05)', label: 'Inkwell' },
-  { value: 'contrast(1.4) saturate(1.8) sepia(.6)', label: 'Multiple Filters' }
+  { value: 'contrast(1.4) saturate(1.8) sepia(.6)', label: 'Multiple Filters' },
+  { value: 'brightness(3)', label: 'Chloe Brightness' }
 ]
 
 class Webcam extends Component {
